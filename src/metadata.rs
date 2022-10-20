@@ -1,8 +1,8 @@
-struct Trait {
-    trait_name: &str,
-    trait_desc: &str,
+pub struct Trait {
+    trait_name: String,
+    trait_desc: String,
 }
 
-struct Metadata {
-    traits: &[Trait],
+pub struct Metadata {
+    traits: [Trait],
 }

@@ -1,7 +1,7 @@
 use metadata_generator::reader::get_trait_names;
 
 fn main() {
-    get_trait_names()
+    get_trait_names().unwrap();
 }
 
 // scripts that randomize traits and produce json
@@ -36,3 +36,5 @@ we will have a shitload of structs that look like
         traitk = "waa"
     }
 */
+
+//RUST IS KICKIGN MY ASS FFS

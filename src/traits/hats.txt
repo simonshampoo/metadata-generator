@@ -1,0 +1,6 @@
+cowboy_hat 25
+pirate_hat 25
+cap 25
+bald 20
+crown 4
+poopie 1
